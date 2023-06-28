@@ -1,0 +1,119 @@
+                       title                       | year |          type          | rating
+---------------------------------------------------+------+------------------------+--------
+ The Corbett-Fitzsimmons Fight                     | 1897 | Documentary,News,Sport | 5.3
+ Reproduction of the Corbett and Fitzsimmons Fight | 1897 | Documentary,News,Sport | 4.4
+(2 rows)
+
+   title    | year |  type   | rating |    starname
+------------+------+---------+--------+-----------------
+ Miss Jerry | 1894 | Romance | 5.3    | Blanche Bayliss
+(1 row)
+
+   title    | year |  type   | rating
+------------+------+---------+--------
+ Miss Jerry | 1894 | Romance | 5.3
+(1 row)
+
+  tconst   |                        primarytitle                         | isadult | startyear | runtimeminutes |           genres           | averagerating |              starname
+-----------+-------------------------------------------------------------+---------+-----------+----------------+----------------------------+---------------+-------------------------------------
+ tt0000009 | Miss Jerry                                                  | 0       | 1894      | 45             | Romance                    | 5.3           | Blanche Bayliss
+ tt0000147 | The Corbett-Fitzsimmons Fight                               | 0       | 1897      | 100            | Documentary,News,Sport     | 5.3           | James J. Corbett
+ tt0000502 | Bohemios                                                    | 0       | 1905      | 100            |                            | 4.1           | Antonio del Pozo
+ tt0000574 | The Story of the Kelly Gang                                 | 0       | 1906      | 70             | Action,Adventure,Biography | 6.0           | Elizabeth Tait
+ tt0000591 | The Prodigal Son                                            | 0       | 1907      | 90             | Drama                      | 4.4           | Georges Wague
+ tt0000615 | Robbery Under Arms                                          | 0       | 1907      |                | Drama                      | 4.3           | Jim Gerald
+ tt0000630 | Hamlet                                                      | 0       | 1908      |                | Drama                      | 2.8           | Fernanda Negri Pouget
+ tt0000675 | Don Quijote                                                 | 0       | 1908      |                | Drama                      | 4.2           | Narciso Cuyàs
+ tt0000679 | The Fairylogue and Radio-Plays                              | 0       | 1908      | 120            | Adventure,Fantasy          | 5.1           | L. Frank Baum
+ tt0000862 | Faldgruben                                                  | 0       | 1909      |                |                            | 4.4           | Hr. Andreasen
+ tt0000886 | Hamlet, Prince of Denmark                                   | 0       | 1910      |                | Drama                      | 4.7           | Jean Mounet-Sully
+ tt0000941 | Locura de amor                                              | 0       | 1909      | 45             | Drama                      | 4.4           | José Argelagués
+ tt0001010 | Protección de un convoy de víveres en el puente de camellos | 0       | 1909      |                |                            | 4.2           | Ignacio Coyne
+ tt0001028 | Salome Mad                                                  | 0       | 1909      |                | Comedy                     | 4.1           | Theo Frenkel
+ tt0001049 | Gøngehøvdingen                                              | 0       | 1909      |                | Drama,War                  | 3.5           | Aage Brandt
+ tt0001101 | Abraham Lincoln's Clemency                                  | 0       | 1910      |                |                            | 4.7           | Leopold Wharton
+ tt0001112 | Amleto                                                      | 0       | 1910      |                | Drama                      | 3.8           | Dante Cappelli
+ tt0001113 | Amor gitano                                                 | 0       | 1910      |                |                            | 5.1           | Segundo de Chomón
+ tt0001115 | Ansigttyven I                                               | 0       | 1910      |                | Crime                      | 4.3           | Philip Bech
+ tt0001116 | Ansigttyven II                                              | 0       | 1910      |                |                            | 4.6           | Philip Bech
+ tt0001122 | The Red Inn                                                 | 0       | 1910      |                |                            | 5.4           | Jeanne Cheirel
+ tt0001159 | The Connecticut Yankee                                      | 0       | 1910      |                |                            | 5.6           | William V. Mong
+ tt0001175 | Camille                                                     | 0       | 1912      |                | Drama,Romance              | 5.2           | Sarah Bernhardt
+ tt0001184 | Don Juan de Serrallonga                                     | 0       | 1910      | 58             | Adventure,Drama            | 3.8           | Dolores Puchol
+ tt0001230 | Gentleman Joe                                               | 0       | 1910      |                |                            | 5.0           | Harry Carey
+ tt0001240 | Hamlet                                                      | 0       | 1911      |                | Drama                      | 3.8           | Alwin Neuß
+ tt0001277 | Kapergasten                                                 | 0       | 1910      |                | Drama                      | 4.4           | Alfred Cohn
+ tt0001285 | The Life of Moses                                           | 0       | 1909      | 50             | Biography,Drama,Family     | 5.4           | Pat Hartigan
+ tt0001338 | A Night in May                                              | 0       | 1910      |                | Drama                      | 5.2           | Vladimir Krivtsov
+ tt0001353 | Paganini                                                    | 0       | 1911      |                |                            | 5.0           | Albert Capellani
+ tt0001364 | El pobre Valbuena                                           | 0       | 1910      |                |                            | 6.2           | Segundo de Chomón
+ tt0001370 | Rainha Depois de Morta Inês de Castro                       | 0       | 1910      |                | Drama,History              | 5.3           | Carlos Santos
+ tt0001379 | A Record Hustle Through Foggy London                        | 0       | 1910      |                |                            | 4.6           | Theo Frenkel
+ tt0001386 | Le roi des parfums                                          | 0       | 1910      |                |                            | 4.3           | Abel Gance
+ tt0001440 | Valdemar Sejr                                               | 0       | 1910      |                | Drama,History              | 4.7           | Philip Bech
+ tt0001475 | Amor fatal                                                  | 0       | 1911      |                | Drama,Romance              | 7.7           | Lucia Sturza-Bulandra
+ tt0001498 | The Battle of Trafalgar                                     | 0       | 1911      | 51             | War                        | 6.9           | Sydney Booth
+ tt0001530 | The Bushranger's Bride                                      | 0       | 1911      |                | Drama                      | 5.4           | Alfred Rolfe
+ tt0001531 | Captain Starlight, or Gentleman of the Road                 | 0       | 1911      |                |                            | 4.6           | Lily Dampier
+ tt0001586 | A Dog's Tale                                                | 0       | 1911      |                |                            | 3.7           | Mary Pickford
+ tt0001592 | In the Prime of Life                                        | 0       | 1911      | 52             | Drama                      | 5.4           | Clara Pontoppidan
+ tt0001614 | The Four Devils                                             | 0       | 1911      | 60             | Drama                      | 6.2           | Robert Dinesen
+ tt0001630 | Der fremde Vogel                                            | 0       | 1911      | 45             |                            | 6.0           | Asta Nielsen
+ tt0001648 | The Golden West                                             | 0       | 1911      |                |                            | 4.2           | George Young
+ tt0001706 | The Infant at Snakeville                                    | 0       | 1911      |                |                            | 4.3           | Gilbert M. 'Broncho Billy' Anderson
+ tt0001712 | Jane Shore                                                  | 0       | 1911      |                |                            | 4.6           | Florence Barker
+ tt0001790 | Les Misérables, Part 1: Jean Valjean                        | 0       | 1913      | 60             | Drama                      | 6.0           | Henry Krauss
+ tt0001803 | The Mystery of a Hansom Cab                                 | 0       | 1911      |                |                            | 3.0           | Walter Dalgleish
+ tt0001812 | Oedipus Rex                                                 | 0       | 1911      | 56             | Drama                      | 5.5           | Suzanne de Baere
+ tt0001889 | Skæbnebæltet                                                | 0       | 1911      |                |                            | 4.0           | Karen Caspersen
+ tt0001892 | Den sorte drøm                                              | 0       | 1911      | 53             | Drama                      | 5.8           | Asta Nielsen
+ tt0001911 | Nell Gwynne                                                 | 0       | 1911      | 50             | Biography,Drama,History    | 3.6           | Nellie Stewart
+ tt0001964 | The Traitress                                               | 0       | 1911      | 48             | Drama                      | 6.0           | Asta Nielsen
+ tt0001993 | L'électrocuté                                               | 0       | 1911      |                | Sci-Fi                     | 4.1           | Camille de Morlhon
+ tt0001998 | The Adventures of Lieutenant Petrosino                      | 0       | 1912      | 47             | Drama                      | 4.4           | Sidney M. Goldin
+ tt0002022 | Anfisa                                                      | 0       | 1912      | 45             | Drama                      | 6.0           | Vladimir Maksimov
+ tt0002026 | Anny - Story of a Prostitute                                | 0       | 1912      | 68             | Drama,Romance              | 4.5           | Julie Jansen-Fuhr
+ tt0002031 | As You Like It                                              | 0       | 1912      |                |                            | 4.0           | Maurice Costello
+ tt0002046 | La Barrera número 13                                        | 0       | 1913      |                |                            | 3.5           | José María Codina
+ tt0002101 | Cleopatra                                                   | 0       | 1912      | 100            | Drama,History              | 5.1           | Helen Gardner
+ tt0002130 | Dante's Inferno                                             | 0       | 1911      | 71             | Adventure,Drama,Fantasy    | 7.0           | Salvatore Papa
+ tt0002153 | The Great Circus Catastrophe                                | 0       | 1912      | 45             | Drama                      | 6.0           | Frederik Christensen
+ tt0002186 | The Flying Circus                                           | 0       | 1912      | 46             | Drama                      | 6.4           | Rasmus Ottesen
+ tt0002199 | From the Manger to the Cross                                | 0       | 1912      | 60             | Biography,Drama            | 5.8           | R. Henderson Bland
+ tt0002220 | Grannie                                                     | 0       | 1912      |                |                            | 4.0           | Mary Pickford
+ tt0002262 | Il y a des pieds au plafond                                 | 0       | 1912      |                |                            | 5.7           | Mathilde Thizeau
+ tt0002305 | Life of Villa                                               | 0       | 1912      |                | Documentary,War            | 7.6           | Pancho Villa
+ tt0002375 | La mort du duc d'Enghien                                    | 0       | 1912      |                |                            | 5.7           | Paul Capellani
+ tt0002395 | Le nègre blanc                                              | 0       | 1912      |                |                            | 5.0           | Abel Gance
+ tt0002405 | Oliver Twist                                                | 0       | 1912      |                | Drama                      | 5.0           | Nat C. Goodwin
+ tt0002406 | Oliver Twist                                                | 0       | 1912      |                | Drama                      | 4.6           | Ivy Millais
+ tt0002423 | Passion                                                     | 0       | 1919      | 85             | Biography,Drama,Romance    | 6.6           | Pola Negri
+ tt0002431 | La pierre philosophe                                        | 0       | 1912      |                |                            | 5.4           | Abel Gance
+ tt0002445 | Quo Vadis?                                                  | 0       | 1913      | 120            | Drama,History              | 6.2           | Amleto Novelli
+ tt0002452 | The Independence of Romania                                 | 0       | 1912      | 120            | History,War                | 6.4           | Aristide Demetriade
+ tt0002461 | The Life and Death of King Richard III                      | 0       | 1912      | 55             | Drama                      | 5.7           | Robert Gemp
+ tt0002474 | Saty delaji cloveka                                         | 0       | 1913      |                | Comedy                     | 6.4           | Anna Sedlácková
+ tt0002500 | The Black Chancellor                                        | 0       | 1912      | 48             | Drama                      | 5.8           | Valdemar Psilander
+ tt0002514 | Saved in Mid-Air                                            | 0       | 1912      | 60             | Drama                      | 4.9           | Lili Beck
+ tt0002555 | The Last Bohemian                                           | 0       | 1913      |                | Drama,Romance              | 4.6           | Antal Nyáray
+ tt0002556 | Vampyrdanserinden                                           | 0       | 1912      |                |                            | 5.7           | Ingeborg Bruhn Bertelsen
+ tt0002574 | What Happened to Mary                                       | 0       | 1912      | 150            | Action,Drama,Thriller      | 6.3           | Mary Fuller
+ tt0002588 | Zigomar contre Nick Carter                                  | 0       | 1912      | 48             | Crime,Thriller             | 5.9           | Alexandre Arquillière
+ tt0002591 | Zu spät                                                     | 0       | 1913      |                |                            | 6.2           | Martha Angerstein-Licho
+ tt0002605 | The Adventures of Kathlyn                                   | 0       | 1913      | 300            | Adventure                  | 5.5           | Kathlyn Williams
+ tt0002628 | Der Andere                                                  | 0       | 1913      | 48             | Drama,Thriller             | 5.5           | Albert Bassermann
+ tt0002637 | Arizona                                                     | 0       | 1913      | 45             | Western                    | 7.2           | Robert Broderick
+ tt0002642 | The Heir to Skjoldborg                                      | 0       | 1914      | 50             | Drama                      | 5.6           | Gyda Aller
+ tt0002646 | Atlantis                                                    | 0       | 1913      | 121            | Drama                      | 6.5           | Olaf Fønss
+ tt0002669 | The Battle of Gettysburg                                    | 0       | 1913      | 48             | Drama,War                  | 6.7           | Willard Mack
+ tt0002739 | Carmen                                                      | 0       | 1914      |                |                            | 2.6           | Andrea Habay
+ tt0002767 | The Count of Monte Cristo                                   | 0       | 1913      | 69             | Drama,History              | 5.5           | James O'Neill
+ tt0002785 | La dame de Monsoreau                                        | 0       | 1913      |                |                            | 6.0           | Maurice de Féraudy
+ tt0002801 | The Black Diamond                                           | 0       | 1913      | 50             |                            | 5.6           | Albert Dieudonné
+ tt0002822 | What 80 Million Women Want                                  | 0       | 1913      | 56             | Drama                      | 4.0           | Ronald Everett
+ tt0002832 | Evangeline                                                  | 0       | 1914      | 50             | Drama                      | 6.8           | Laura Lyman
+ tt0002844 | Fantômas: In the Shadow of the Guillotine                   | 0       | 1913      | 54             | Crime,Drama                | 6.9           | René Navarre
+ tt0002885 | From Dusk to Dawn                                           | 0       | 1913      | 90             | Drama                      | 5.9           | George Cummings
+ tt0002898 | Germinal; or, The Toll of Labor                             | 0       | 1913      | 150            | Drama                      | 6.8           | Mévisto
+ tt0002917 | Brother Against Brother                                     | 0       | 1913      | 51             | Drama                      | 5.6           | Egil Eide
+(100 rows)

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link href="base.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<h3>电影查询系统</h3>
+<div class="nav1">
+    <ul>
+        <li><a href="#" >首页</a></li>
+        <li><a href="../add/problem.html">添加剧目信息</a></li>
+    </ul>
+</div>
+    <div class="box">
+        <div id="form">
+            <input type="text" id="primarytitle" placeholder="请输入电影名称">
+            <input type="text" id="starname" placeholder="请输入主演">
+            <input type="text" id="genres" placeholder="请输入类型">
+            <input type="text" id="startyear" placeholder="请输入开始时间">
+            <input type="text" id="averagerating" placeholder="请输入评分">
+            <button id="search">查询</button>
+        </div>
+        <div class="main">
+            <div class="content">
+                <table id="table">
+                    <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>电影名称</th>
+                        <th>主演</th>
+                        <th>类型</th>
+                        <th>开始时间</th>
+                        <th>评分</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="client.js" type="text/javascript" charset="utf-8"></script>
+    </div>
+</div>
+</div>
+</body>
+</html>

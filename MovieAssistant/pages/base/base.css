@@ -1,0 +1,125 @@
+
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+  }
+
+  .base {
+      background-color: #f1f1f1;
+      padding: 20px;
+      margin: 20px;
+  }
+
+  .nav1 {
+      background-color:royalblue;
+      color: #fff;
+      padding: 10px;
+  }
+
+  .nav1 ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+
+  .nav1 ul li {
+      display: inline-block;
+      margin-right: 10px;
+  }
+
+  .nav1 ul li a {
+      color: #fff;
+      text-decoration: none;
+  }
+
+  .box {
+      background-color: #fff;
+      padding: 20px;
+      margin-top: 20px;
+  }
+
+  .top {
+      text-align: center;
+  }
+  /*******************************
+ 基础样式
+ *******************************/
+
+  /* 将注册链接设置为蓝色和白色 */
+
+
+
+  .box button {
+      margin-top: 20px; /* 将按钮与后方块之间的间距增加到20像素 */
+  }
+
+  h3 {
+      font-size: 24px;
+      margin: 0;
+      text-align: center;
+      color: royalblue;
+  }
+
+  #form input,
+  #form button {
+      margin-top: 5px;
+      width: 200px;
+      padding: 10px;
+  }
+
+  #search,
+  #add {
+      background-color:royalblue;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+  }
+
+  /*******************************
+  表格样式
+  *******************************/
+
+  table {
+      margin-top:10px;
+      width: 100%;
+      border-collapse: collapse;
+  }
+
+  thead th {
+      background-color:royalblue;
+      color: #fff;
+      padding: 10px;
+      text-align: left;
+  }
+
+  tbody td {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+  }
+
+  tbody tr:last-child td {
+      border-bottom: none;
+  }
+
+  /*******************************
+  响应式样式
+  *******************************/
+
+  @media only screen and (max-width: 768px) {
+      .base {
+          margin: 10px;
+      }
+  }
+
+  @media only screen and (max-width: 480px) {
+      .top h3 {
+          font-size: 20px;
+      }
+
+      #form input,
+      #form button {
+          width: 100%;
+      }
+  }
