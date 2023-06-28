@@ -7,9 +7,13 @@
 本项目预期的结果是一个简洁、美观、易用的电影查询和管理网页，它能够满足用户对电影查询和浏览的需求，提高用户的体验和满意度。
 
 ## Environment
+
 数据库环境：docker虚拟环境下的的opengauss数据库
+
 前端： html、css和JavaScript技术
+
 后端：采用nodejs+express框架构建本地服务器
+
 编写和调试代码：使用Eclipse、Idea、Vscode作为集成开发环境（IDE）
 
 ## Deployment
