@@ -219,7 +219,18 @@ app.post("/edit",function(req,res){
             });
         });
     });
+})
 
+//某电影的演员
+app.post("/actors",function(req,res){
+    var sql = "select ordering,primaryname from movie natural join principal natural join person where tconst = " + "\'" + req.body.tconst + "\'";
+    console.log(sql);
+    pool.query(sql,function(err,rs){
+        if(err) throw err;
+        else{
+            res.send(rs.rows);
+        }
+    })
 
 })
 

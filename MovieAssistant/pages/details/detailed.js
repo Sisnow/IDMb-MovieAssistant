@@ -13,16 +13,31 @@ function showData(data){
     document.forms['f']['runtimeminutes'].value = data.runtimeminutes;
 }
 
+function showData2(data){
+    for (var i = 0; i < data.length; i++) {
+        //console.log('a' + i, data[i].primaryname)
+        document.forms['f2']['a' + i].value = data[i].primaryname;
+    }
+}
+
 
 // 页面加载完成后，发送一个get请求，获取电影的数据，并显示在表格中
 $(document).ready(function () {
+
     $.post("http://127.0.0.1:5000/details", {tconst: tconst}, function(data,status){
         // 如果请求成功，调用showData函数，显示数据
         if (status == "success") {
             showData(data);
         }
     });
+    //演员表
+    $.post("http://127.0.0.1:5000/actors", {tconst: tconst}, function(data,status){
+        if (status == "success") {
+            showData2(data);
+        }
+    });
 
+    //修改电影详情
     $(document).on("click", ".edit", function () {
 
         // 获取输入框中的数据
