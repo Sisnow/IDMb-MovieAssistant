@@ -77,6 +77,12 @@
       cursor: pointer;
   }
 
+  #next {
+    background-color:royalblue;
+    color: #fff;
+    border: none;
+  }
+
   /*******************************
   表格样式
   *******************************/

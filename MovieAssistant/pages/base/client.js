@@ -1,11 +1,12 @@
 // 定义一个函数，用于显示表格中的数据
-function showData(data) {
+function showData(data, page) {
     // 清空表格中的旧数据
     $("#tbody").empty();
     // 遍历数据数组，拼接表格行
     for (var i = 0; i < data.length; i++) {
+        //console.log(page,i);
         var row = "<tr>";
-        row += "<td>" + (i + 1) + "</td>";
+        row += "<td>" + (i + 1 + (page-1)*100) + "</td>";
         row += "<td>" + data[i].primarytitle + "</td>";
         row += "<td>" + data[i].starname + "</td>";
         row += "<td>" + data[i].genres + "</td>";
@@ -50,12 +51,25 @@ function clearFormData() {
     $("#averagerating").val("");
 }
 
-// 页面加载完成后，发送一个get请求，获取所有电影的数据，并显示在表格中
+var pagenum = 1;
+
+// 页面加载完成后，发送一个post请求，获取100条电影的数据，并显示在表格中
 $(document).ready(function () {
-    $.get("http://127.0.0.1:5000/index",function(data,status){
+    $.post("http://127.0.0.1:5000/index", {pagenum:pagenum}, function(data,status){
         // 如果请求成功，调用showData函数，显示数据
         if (status == "success") {
-            showData(data);
+            showData(data,pagenum);
+        }
+    });
+});
+
+//点击下一页，查看后100条信息
+$("#next").click(function () {
+    pagenum = pagenum + 1;
+    $.post("http://127.0.0.1:5000/index", {pagenum:pagenum}, function(data,status){
+        // 如果请求成功，调用showData函数，显示数据
+        if (status == "success") {
+            showData(data,pagenum);
         }
     });
 });

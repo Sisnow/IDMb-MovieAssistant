@@ -24,8 +24,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // 列表,默认显示排名前一百的电影
-app.get("/index",function(req,res){ //创建路由,第一个参数是路由,第二个是函数
-    var sql = "select tconst,primaryTitle,starName,genres,startYear,averageRating from movie order by averageRating DESC,startYear DESC limit 100";
+app.post("/index",function(req,res){ //创建路由,第一个参数是路由,第二个是函数
+    var sql = `select tconst,primaryTitle,starName,genres,startYear,averageRating from movie order by averageRating DESC,startYear DESC limit ${(req.body.pagenum-1)*100},100`;
+    console.log(sql);
     pool.query(sql,function(err,rs){ //查询方法:1.查询语句,1.回调函数
         if(err) throw err; //抛出错误
         else res.send(rs.rows) //则返回给前端
@@ -232,6 +233,35 @@ app.post("/actors",function(req,res){
         }
     })
 
+})
+
+//登录
+app.post("/login",function(req,res){
+    var sql = "select * from users where nickname = " + "\'" + req.body.nickname + "\' and password = " + "\'" + req.body.password + "\'";
+    console.log(sql);
+    pool.query(sql,function(err,rs){
+        if(err) throw err;
+        else{
+            console.log(rs.rows)
+            if(rs.rows.length)
+                res.send('200');
+            else
+                res.send('404');
+        }
+    })
+})
+
+//注册
+app.post("/register",function(req,res){
+    var params = ['u' + Date.now(), req.body.nickname, req.body.password];
+    var sql = `insert into users values('${params[0]}','${params[1]}','${params[2]}',null,null)`;
+    console.log(sql);
+    pool.query(sql,function(err,rs){
+        if(err) throw err;
+        else{
+            res.send('200');
+        }
+    })
 })
 
 app.listen(5000,()=>{

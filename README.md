@@ -24,9 +24,13 @@ To deploy this project run
 
 2.创建数据库，并导入数据
 
-a.你可以使用我们提供的小型数据集
+请参照DDL.sql中的命令建表。
 
-b.或者导入全量数据集
+关于数据集，你可以：
+
+a.使用我们提供的小型数据集
+
+b.  导入全量数据集
 
 在IDMb官网下载原始数据集：https://datasets.imdbws.com/
 

@@ -4,6 +4,16 @@ drop table if EXISTS rating CASCADE;
 drop table if EXISTS crew CASCADE;
 drop table if EXISTS person CASCADE;
 drop table if EXISTS principal CASCADE;
+drop table if EXISTS user CASCADE;
+
+create table users(
+uid text,
+nickname text,
+password text,
+tconst text,
+msg text,
+primary key(uid)
+);
 
 create table work(
 tconst text,
