@@ -72,6 +72,15 @@ $(document).ready(function () {
         alert("修改成功！")
 
     });
+
+    //收藏
+    $(document).on("click", ".star", function(){
+        $.post("http://127.0.0.1:5000/addStar", {tconst: tconst}, function(data,status){
+            if (status == "success") {
+                alert("收藏成功！");
+            }
+        });
+    });
 });
 
 

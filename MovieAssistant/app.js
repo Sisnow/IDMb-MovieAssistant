@@ -264,6 +264,28 @@ app.post("/register",function(req,res){
     })
 })
 
+//添加收藏
+app.post("/addStar", function(req,res){
+    var sql = `insert into stars values('${req.body.tconst}')`;
+    console.log(sql);
+    pool.query(sql,function(err,rs){
+        if(err) throw err;
+        else res.send('200');
+    })
+})
+
+//查看收藏
+app.get("/readStar", function(req,res){
+    var sql = "select tconst,primaryTitle,starName,genres,startYear,averageRating from movie natural join stars";
+    console.log(sql);
+    pool.query(sql,function(err,rs){
+        if(err) throw err;
+        else{
+            res.send(rs.rows);
+        }
+    })
+})
+
 app.listen(5000,()=>{
     console.log("服务器启动,可通过http://127.0.0.1:5000访问")
 })

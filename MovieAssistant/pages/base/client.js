@@ -1,5 +1,5 @@
 // 定义一个函数，用于显示表格中的数据
-function showData(data, page) {
+function showData(data, page=1) {
     // 清空表格中的旧数据
     $("#tbody").empty();
     // 遍历数据数组，拼接表格行
@@ -70,6 +70,15 @@ $("#next").click(function () {
         // 如果请求成功，调用showData函数，显示数据
         if (status == "success") {
             showData(data,pagenum);
+        }
+    });
+});
+
+//查看收藏信息
+$("#star").click(function () {
+    $.get("http://127.0.0.1:5000/readStar", function(data,status){
+        if (status == "success") {
+            showData(data);
         }
     });
 });

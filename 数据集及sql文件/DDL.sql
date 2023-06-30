@@ -15,6 +15,10 @@ msg text,
 primary key(uid)
 );
 
+create table stars(
+tconst text
+);
+
 create table work(
 tconst text,
 titleType text,
